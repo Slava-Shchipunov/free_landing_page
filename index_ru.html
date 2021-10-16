@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="RU">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Денис Новик</title>
+    <link rel="icon" type="image/png" href="/img/favicon.png">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="header">
+      <div class="wrapper">
+          <div class="header_wrapper">
+            <nav class="header_nav">
+                <ul class="header_list">
+                    <li class="header_item">
+                        <a href="#home" class="header_link header_link_font">Главная</a>
+                    </li>
+                    <li class="header_item">
+                        <a href="#about_me" class="header_link header_link_font">Обо мне</a>
+                    </li>
+                    <li class="header_item">
+                        <a href="#skills" class="header_link header_link_font">Навыки</a>
+                    </li>
+                    <li class="header_item">
+                        <a href="#portfolio" class="header_link header_link_font">Портфолио</a>
+                    </li>
+                    <li class="header_item">
+                        <a href="#contacts" class="header_link header_link_font">Контакты</a>
+                    </li>
+                </ul>
+                <div class="header_nav_close">
+                  <span class="header_nave_close_line"></span>
+                  <span class="header_nave_close_line"></span>
+                </div>
+            </nav>
+            <div class="header_burger burger">
+              <span class="burger_line burger_line_first"></span>
+              <span class="burger_line burger_line_second"></span>
+              <span class="burger_line burger_line_third"></span>
+            </div>
+          </div>
+      </div>
+  </header>
+  
+  <main class="main">
+      <section class="home" id="home">
+          <div class="home_text">
+              <div>
+                <p id=name>
+                    Денис
+                    <br>
+                    Новик
+                </p>
+              </div>
+              <div>
+                <p>
+                    UX | UI дизайнер <br>
+                    24 года, Минск
+                </p>
+              </div>
+              <div id="list">
+                <ul>
+                    <li class="rotatable" id="list1">
+                      <a href="index.html" class="header_link">ENG</a>
+                    </li>
+                    <li class="rotatable" id="list2">
+                      <a href="index_ru.html" class="active_ru_eng_switch">RU</a>
+                    </li>
+                </ul>
+              </div>
+          </div>
+          <div class="home_img">
+              <img src="img/home_img.jpg" alt="home pages photo" class="responsive_img" id="home_img_desktop">
+              <img src="img/home_img_mobile.jpg" alt="home pages photo" class="responsive_img" id="home_img_mobile">
+          </div>
+      </section>
+
+      <section class="about_me" id="about_me">
+          <h1 id="about_me_h1">Обо мне</h1>
+          <p>
+            Привет, я Денис – UX/UI дизайнер из Минска. <br>
+            Я интересуюсь дизайном и всем, что с ним связано.
+            <br>
+            <br>
+            <br>
+            Я учусь на курсах "Веб-дизайн и мобильный дизайн <br>
+            интерфейсов" в IT-Академии.
+            <br>
+            <br>
+            <br>
+            Готов реализовывать отличные проекты <br>
+            с замечательными людьми.
+          </p>
+      </section>
+
+      <section class="skills" id="skills">
+          <h1 id="skills_h1">Навыки</h1>
+          <p class="my_skills">
+            Я работаю в таких программах, как
+          </p>
+          <div class="programs">
+            <img class="programs_img_1" src="img/skills/adobe_photoshop.png" alt="adobe_photoshop_skills">
+            <img class="programs_img_1" src="img/skills/adobe_iIllustrator.png" alt="adobe_iIllustrator_skills">
+            <img class="programs_img_2" src="img/skills/adobe_after_effects.png" alt="adobe_after_effects_skills">
+            <img class="programs_img_3" src="img/skills/figma.png" alt="figma_skills">
+          </div>
+      </section>
+      
+      <section class="portfolio" id="portfolio">
+          <h1 id="portfolio_h1">Портфолио</h1>
+          <div class="portfolio_exemples">
+              <img class="portfolio_img responsive_img" src="img/portfolio/online_fashion_store.jpg" alt="online_fashion_store_design">
+          </div>
+          <p class="portfolio_subtitle">
+            Online fashion store - Homepage
+          </p>
+          <div class="portfolio_exemples">
+              <img class="portfolio_img responsive_img" src="img/portfolio/reebok_store.jpg" alt="reebok_store_design">
+          </div>
+          <p class="portfolio_subtitle">
+            Reebok Store - Concept
+          </p>
+          <div class="portfolio_exemples">
+              <img class="portfolio_img responsive_img" src="img/portfolio/braun_landing_page.jpg" alt="braun_landing_page_design">
+          </div>
+          <p class="portfolio_subtitle">
+            Braun Landing Page - Concept
+          </p>
+      </section>
+      
+  </main>
+
+  <footer class="footer">
+      <section class="contacts" id="contacts">
+          <h1 id="contacts_h1">Контакты</h1>
+          <p class="contacts_subtitle">
+            Хотите узнать больше или просто поболтать? <br>
+            Добро пожаловать!
+          </p>
+          <!-- add action attribute for form-->
+          <form class="send_message" action="mailto:shchipunovsd@gmail.com" method="get">
+            <button type="submit" class="send_message_button" formtarget="_blank">Отправить сообщение</button>
+          </form>
+          <div class="icons">
+            <a href="https://linkedin.com"><img src="img/icons/linkedin.png" alt="linkedin" class="contacts_icons"></a>
+            <a href="https://instagram.com"><img src="img/icons/instagram.png" alt="instagram" class="contacts_icons"></a>
+            <a href="https://behance.net"><img src="img/icons/behance.png" alt="behance" class="contacts_icons"></a>
+            <a href="https://dribbble.com"><img src="img/icons/dribbble.png" alt="dribbble" class="contacts_icons"></a>
+          </div>
+          <p class="like_me_on">
+            Like me on<br>
+            <a href="https://linkedin.com" class="like_me_on_link">LinkedIn</a>,
+            <a href="https://instagram.com" class="like_me_on_link">Instagram</a>,
+            <a href="https://behance.net" class="like_me_on_link">Behance</a>,
+            <a href="https://dribbble.com" class="like_me_on_link">Dribble</a>
+          </p>
+      </section>
+  </footer>
+  <script src="js/js_scripts.js"></script>
+</body>
+</html>
